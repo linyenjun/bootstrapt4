@@ -1,0 +1,12 @@
+{
+  "name": "bootstrapt4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "scripts":{
+    "start":"./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
+  }
+}
